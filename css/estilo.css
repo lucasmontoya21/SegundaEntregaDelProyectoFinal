@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*index*/
+
+.contenedor-fluid {
+    overflow-x: none;
+}
+
+.logo {
+    width: 300px;
+}
+
+.divColor {
+    background-color: red;
+    border: 1px black solid;
+}
+
+.liColor {
+    background-color: grey;
+    border: 1px black solid;
+}
+
+.aColor {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.tituloIndex{
+    position: relative;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 100px;
+    font-weight: bolder;
+    left: 50px;
+}
+
+footer {
+    border: 1px black solid;
+    background-color: red;
+    text-align: start;
+    font-family: 'Cormorant SC', cursive;
+}
+
+.parrafoIndex {
+    font-family: 'Cormorant SC', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.h2Main {
+    font-family: 'Calligraffitti', cursive;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.Ropa {
+    width: 600px;
+}
+    
+.fixed {
+    position: fixed;
+    transition: all 0,3;
+    bottom: 0px;
+    right: 0px;
+    width: 120px;
+    border-radius: 30px;
+ }
+
+ .fixed:hover {
+    width: 200px;
+    height: 150px;
+}
+
+ /*estilos de contacto ubicacion*/
+
+ .tituloUbicacion {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px;
+    font-family: 'Cormorant SC', cursive;
+}
+
+.mapa {
+    position: relative;
+    transition: all 0,3;
+    width: 70%;
+    left: 180px;
+}
+
+.mapa:hover {
+    width: 80%;
+}
+
+/* estilo marcas */
+
+.padreFlexM {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    margin: 0%;
+}
+
+.FlexM {
+    display: flex;
+    height: 10px;
+    width: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloMarcas {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Cormorant SC', cursive;
+    margin: 20px;
+    padding: 20px;
+}
+
+.subCuerdos {
+    text-align: start;
+    text-transform: uppercase;
+    font-family: 'Cormorant SC', cursive;
+    margin: 20px;
+    padding: 20px;
+}
+
+.anorakCuerdos {
+    width: 120px;
+    height: 120px;
+}
+
+.buzoCuerdos {
+    width: 120px;
+    height: 120px;
+}
+
+.remeraCuerdos {
+    width: 120px;
+    height: 120px;
+}
+
+.subWe {
+    text-align: start;
+    text-transform: uppercase;
+    font-family: 'Cormorant SC', cursive;
+    margin: 20px;
+    padding: 20px;
+}
+
+.muestraWe {
+    left: 30px;
+}
+
+.buzoWe1 {
+    width: 120px;
+    height: 120px;
+}
+
+.buzoWe2 {
+    width: 120px;
+    height: 120px;
+}
+
+.outfitWe {
+    width: 120px;
+    height: 120px;
+}
+
+.subZimith {
+    text-align: start;
+    text-transform: uppercase;
+    font-family: 'Cormorant SC', cursive;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.buzoZimith {
+    width: 120px;
+    height: 120px;
+}
+
+.remeraZimith {
+    width: 120px;
+    height: 120px;
+}
+
+.camperaZimith {
+    width: 120px;
+    height: 120px;
+}
+
+.subVolsano {
+    text-align: start;
+    text-transform: uppercase;
+    font-family: 'Cormorant SC', cursive;
+    margin: 20px;
+    padding: 20px;
+}
+
+.momfitRotoVolsano {
+    width: 120px;
+    height: 120px; 
+}
+
+.momfitVolsano {
+    width: 120px;
+    height: 120px; 
+}
+
+.regularVolsano {
+    width: 120px;
+    height: 120px;
+}
+
+/* estilos sobre-nosotros */
+
+.tituloSobreNosotros {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Cormorant SC', cursive;
+    margin: 20px;
+    padding: 20px;
+}
+
+.parrafoSobreNosotros {
+    display: none;
+}
+
+.entradaLocal1 {
+    display: none;
+}
+
+.parrafoAgradecimiento {
+    border: 2px black dashed;
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    font-family: 'Cormorant SC', cursive;
+}
+
+.entradaLocal2 {
+    width: 300px;
+    height: 300px;
+}
+
+.empleados2 {
+    width: 300px;
+    height: 300px;
+}
+
+.empleados1 {
+    display: none;
+}
+
+.agradecimiento {
+    display: none;
+}
+
+/* estilos talles */
+
+.curvas {
+    width: 100%;
+    height: 100%;
+}
+
+/*mediaqueries*/
+
+
+@media screen and (min-width:1024px){
+
+  
+
+     .tituloMarcas {
+        text-transform: uppercase;
+        font-family: 'Cormorant SC', cursive;
+    }
+    
+    .subCuerdos {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Cormorant SC', cursive;
+    }
+
+    .muestraCuerdos {
+        position: relative;
+        left: 30px;
+    }
+    
+    .anorakCuerdos {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .buzoCuerdos {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .remeraCuerdos {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .subWe {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Cormorant SC', cursive;
+    }
+
+    .muestraWe {
+        position: relative;
+        left: 30px;
+    }
+    
+    .buzoWe1 {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .buzoWe2 {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .outfitWe {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .subZimith {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Cormorant SC', cursive;
+    }
+
+    .muestraZimith {
+        position: relative;
+        left: 30px;
+    }
+    
+    .buzoZimith {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .remeraZimith {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .camperaZimith {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .subVolsano {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Cormorant SC', cursive;
+    }
+
+    .muestraVolsano {
+        position: relative;
+        left: 30px;
+    }
+    
+    .momfitRotoVolsano {
+        width: 400px;
+        height: 400px;  
+    }
+    
+    .momfitVolsano {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .regularVolsano {
+        width: 400px;
+        height: 400px;
+    }
+
+
+    .tituloSobreNosotros {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Cormorant SC', cursive;
+        font-weight: bolder;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    .parrafoSobreNosotros {
+        display: inline-block;
+        border: 5px black solid;
+        background-color: red;
+        text-align: center;
+        margin: 20px;
+        text-transform: uppercase;
+        font-family: 'Cormorant SC', cursive;
+    }
+    
+    .entradaLocal2 {
+        display: none;
+    }
+    
+    .parrafoAgradecimiento {
+        display: none;
+    }
+    
+    .entradaLocal1 {
+        display: inline-block;
+        width: 500px;
+        height: 500px;
+    }
+    
+    .empleados1 {
+        display: inline-block;
+        width: 500px;
+        height: 500px;
+    }
+    
+    .empleados2 {
+        display: none;
+    }
+    
+    .agradecimiento {
+        display: inline-block;
+        border: 5px black solid;
+        background-color: red;
+        text-align: center;
+        margin: 20px;
+        height: 20px;
+        text-transform: uppercase;
+        font-family: 'Cormorant SC', cursive;
+    }
+
+    .curvas {
+        width: 100%;
+        height: 100%;
+    }
+
+}
